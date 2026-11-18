@@ -1,0 +1,49 @@
+# ===== Android / Gradle =====
+.gradle/
+build/
+*/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+output.json
+release/
+
+# ===== 로컬 설정·비밀 정보 =====
+local.properties
+*.keystore
+*.jks
+keystore.properties
+secrets.properties
+google-services.json
+.env
+.env.*
+
+# ===== Android Studio / IntelliJ =====
+.idea/
+*.iml
+*.ipr
+*.iws
+.navigation/
+out/
+
+# ===== Kotlin =====
+.kotlin/
+*.class
+hs_err_pid*
+
+# ===== 로그 / 기타 =====
+*.log
+.DS_Store
+Thumbs.db
+
+# ===== 실험 (PC Python) =====
+experiments/data/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
